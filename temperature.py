@@ -17,13 +17,13 @@ class AuotoWrite:
         # ?处是要填写的
         self.data = None
         self.param = {
-            "stuNum": "?",  # 学号
-            "pwd": "?",  # 密码
+            "stuNum": "190801320",  # 学号
+            "pwd": "W190801320!",  # 密码
             "vcode": "",
         }
-        self.my_email = "?"  # 此处是python发送邮件利用的邮箱
-        self.send_mail = "?"  # 此处是接收填写情况的邮箱
-        self.license_code = "?"  # 发送邮箱的pop授权码
+        self.my_email = "a3164555249@gmail.com"  # 此处是python发送邮件利用的邮箱
+        self.send_mail = "3164555249.com"  # 此处是接收填写情况的邮箱
+        self.license_code = "rkumiqoqkeudddae"  # 发送邮箱的pop授权码
         self.smtp_server = "smtp.qq.com"  # qq smtp 的服务器
         # 以下已设置好
         # 设填写的体温a是36.3~36.7的随机数
